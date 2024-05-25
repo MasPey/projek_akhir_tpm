@@ -36,7 +36,7 @@ await Hive.initFlutter(); //inisialisasi
 9. Jika berhasil login , Sharedpref akan menyimpan data username dan boolean newSesi : false
 
 
-## Membuat API
+## ~ Membuat API
 1. Tambahkan pada dependencies .yaml: http: ^0.13.4
 2. Tambahkan permission pada AndoridManifest.xml (android/app/src/main) : <uses-permission android:name="android.permission.INTERNET" />
 3. Membuat BaseNetwork untuk link request dari API
